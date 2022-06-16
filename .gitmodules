@@ -1,0 +1,15 @@
+[submodule "example/flutter_boost"]
+	path = example/flutter_boost
+	url = https://github.com/alibaba/flutter_boost.git
+[submodule "example/exploration_planner"]
+	path = example/exploration_planner
+	url = https://github.com/afitz0/exploration_planner.git
+[submodule "example/arkit_flutter_plugin"]
+	path = example/arkit_flutter_plugin
+	url = https://github.com/olexale/arkit_flutter_plugin.git
+[submodule "example/flutter_web_twitch_auth"]
+	path = example/flutter_web_twitch_auth
+	url = https://github.com/TesteurManiak/flutter_web_twitch_auth.git
+[submodule "example/Flutter-Movie-App"]
+	path = example/Flutter-Movie-App
+	url = https://github.com/Faiz-rhm/Flutter-Movie-App.git
