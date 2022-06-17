@@ -33,6 +33,11 @@ _config_stage.yml
 .pub/
 build/
 
+#
+**/ios/
+**/android/
+**/web/
+
 # Android related
 **/android/**/gradle-wrapper.jar
 **/android/.gradle
