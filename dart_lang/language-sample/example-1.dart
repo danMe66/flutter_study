@@ -1,7 +1,7 @@
 // ignore_for_file: unused_local_variable, dead_code
 import 'dart:math'; //导入核心库
-// import 'package:test/test.dart_lang'; //从外部包导入
-// import 'path/to/my_other_file.dart_lang'; //从本地包导入
+// import 'package:test/test.dart'; //从外部包导入
+// import 'path/to/my_other_file.dart'; //从本地包导入
 
 void main() {
   // Hello Word:你好，世界

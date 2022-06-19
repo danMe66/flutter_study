@@ -52,7 +52,7 @@ class Todo {
 
   const Todo(this.who, this.what);
 }
-// import 'todo.dart_lang';
+// import 'todo.dart';
 
 @Todo('seth', 'make this do something')
 void doSomething() {
