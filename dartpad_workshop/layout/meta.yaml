@@ -1,12 +1,6 @@
 name: Flutter Study Layout
 type: flutter
 steps:
-  - name: Introduction
-    directory: introduction
-    has_solution: false
   - name: Construct a LazyIndexedStack
     directory: step_01
     has_solution: true
-  - name: Completion
-    directory: completion
-    has_solution: false

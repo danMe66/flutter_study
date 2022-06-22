@@ -1,13 +1,10 @@
 name: Flutter 基础知识学习
 type: flutter
 steps:
-  - name: Introduction
-    directory: introduction
-    has_solution: false
-  - name: Construct a LazyIndexedStack
+  - name: 函数接受给定Widiget，并且使其成为小部件树的根
     directory: step_01
     has_solution: true
-  - name: Persist boolean flags for each child
+  - name: Using Material Components 使用Material组件构建
     directory: step_02
     has_solution: true
   - name: Build the child according to its activation state
