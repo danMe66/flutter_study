@@ -1,21 +1,21 @@
 name: Flutter 基础知识学习
 type: flutter
 steps:
-  - name: 函数接受给定Widiget，并且使其成为小部件树的根
+  - name: Basic widgets：基础组件
     directory: step_01
     has_solution: true
   - name: Using Material Components 使用Material组件构建
     directory: step_02
-    has_solution: true
-  - name: Build the child according to its activation state
+    has_solution: false
+  - name: 处理手势
     directory: step_03
-    has_solution: true
-  - name: Activate the child when the new index match its position
+    has_solution: false
+  - name: 更改小部件以响应输入
     directory: step_04
-    has_solution: true
-  - name: Control children updates more precisely
+    has_solution: false
+  - name: 把这一切放在一起 - 1
     directory: step_05
     has_solution: false
-  - name: Completion
-    directory: completion
+  - name: 把这一切放在一起 - 2
+    directory: step_06
     has_solution: false

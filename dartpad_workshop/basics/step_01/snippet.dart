@@ -1,23 +1,35 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyAppBar(title: Text("My App")));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+
+// Basic widgets：基础组件
+class MyAppBar extends StatelessWidget {
+  final Widget title;
+  const MyAppBar({required this.title, super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter layout demo',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Flutter layout demo'),
-        ),
-        body: const Center(
-          child: Text('Hello world'),
-        ),
+    return Container(
+      height: 56.0,
+      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      decoration: BoxDecoration(color: Colors.blue[500]),
+      child: Row(
+        children: [
+          const IconButton(
+            onPressed: null,
+            icon: Icon(Icons.menu),
+            tooltip: 'Nav menu',
+          ),
+          Expanded(child: title),
+          const IconButton(
+            onPressed: null,
+            icon: Icon(Icons.search),
+            tooltip: 'Search',
+          ),
+        ],
       ),
     );
   }
