@@ -1,6 +1,18 @@
 name: Flutter Study Layout
 type: flutter
 steps:
-  - name: Construct a LazyIndexedStack
+  - name: 在页面上添加布局小组件
     directory: step_01
     has_solution: true
+  - name: 垂直和水平布局多个小部件
+    directory: step_02
+    has_solution: false
+  - name: 对齐小部件
+    directory: step_03
+    has_solution: true
+  - name: 包装小部件
+    directory: step_04
+    has_solution: false
+  - name: 嵌套行和列
+    directory: step_05
+    has_solution: false

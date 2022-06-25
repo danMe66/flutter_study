@@ -12,7 +12,7 @@ steps:
     has_solution: false
   - name: 更改小部件以响应输入
     directory: step_04
-    has_solution: false
+    has_solution: true
   - name: 把这一切放在一起 - 1
     directory: step_05
     has_solution: false
